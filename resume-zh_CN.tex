@@ -11,52 +11,47 @@
 \begin{document}
 \pagenumbering{gobble} % suppress displaying page number
 
-\name{你的大名}
+\name{陈荣}
 
 % {E-mail}{mobilephone}{homepage}
 % be careful of _ in emaill address
-\contactInfo{my\_address@yuanbin.me}{(+86) 131-221-87xxx}{http://www.yuanbin.me}
+\contactInfo{procrboo@gmail.com}{(+86) 188-1755-5359}{http://procr.cn/}
 % {E-mail}{mobilephone}
 % keep the last empty braces!
 %\contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{}
  
-\section{\faGraduationCap\  教育背景}
-\datedsubsection{\textbf{上海交通大学}, 上海}{2013 -- 至今}
-\textit{在读硕士研究生}\ 信息与通信工程, 预计 2016 年 3 月毕业
-\datedsubsection{\textbf{西安电子科技大学}, 西安, 陕西}{2009 -- 2013}
-\textit{学士}\ 通信工程
+\section{教育背景}
+\datedsubsection{\textbf{上海交通大学}, 上海}{2015 -- 至今}
+\textit{在读硕士研究生}\ 软件工程, 预计 2018 年 3 月毕业, GPA 2.79/3.3, rank top 2/88
+\datedsubsection{\textbf{上海交通大学}, 上海}{2011 -- 2015}
+\textit{学士}\ 软件工程，GPA 3.4/4.3(84.4/100), rank 25/108
 
-\section{\faUsers\ 实习/项目经历}
-\datedsubsection{\textbf{黑科技公司} 上海}{2015年3月 -- 2015年5月}
-\role{实习}{经理: 高富帅}
-xxx后端开发
-\begin{itemize}
-  \item 实现了 xxx 特性
-  \item 后台资源占用率减少8\%
-  \item xxx
-\end{itemize}
+\section{项目经历}
+\datedsubsection{\textbf{Xen多核扩展性项目}}{2016年3月 -- 至今}
+当前云平台的服务器CPU核数已经到达一个很高的水平（大于80核），这对内存以及CPU虚拟化的可扩展性带来了比较大的影响。
+这个项目针对于Xen超级管理者的进程间通信以及信用调度器的相关优化。
+最终我们能够为之带来超过80\%的性能提升。
 
-\datedsubsection{\textbf{分布式科学上网姿势}}{2014年6月 -- 至今}
-\role{Golang, Linux}{个人项目，和富帅糕合作开发}
-\begin{onehalfspacing}
-分布式负载均衡科学上网姿势, https://github.com/cyfdecyf/cow
-\begin{itemize}
-  \item 修复了连接未正常关闭导致文件描述符耗尽的 bug
-  \item 使用Chord 哈希 URL, 实现稳定可靠地分流
-  \item xxx (尽量使用量化的客观结果)
-\end{itemize}
-\end{onehalfspacing}
+\textit{关键词} Xen超级管理者，进程间通信，信用调度器，锁
 
-\datedsubsection{\textbf{\LaTeX\ 简历模板}}{2015 年5月 -- 至今}
-\role{\LaTeX, Python}{个人项目}
-\begin{onehalfspacing}
-优雅的 \LaTeX\ 简历模板, https://github.com/billryan/resume
-\begin{itemize}
-  \item 容易定制和扩展
-  \item 完善的 Unicode 字体支持，使用 \XeLaTeX\ 编译
-  \item 支持 FontAwesome 4.5.0
-\end{itemize}
-\end{onehalfspacing}
+\datedsubsection{\textbf{VPM:非易失性内存的虚拟化}}{2015年10月 -- 2016年5月}
+此工作通过修改虚拟机内核以及底层虚拟化超级管理者以支持非易失性内存的虚拟化。
+通过测试表明，在底层硬件非易失性内存有限的情况下，VPM能够为上层虚拟机带来充足的非易失性内存的抽象，并且只带来非常小的性能损耗。
+这个工作的论文已经发表在系统领域高等级会议ACM Symposium on Cloud Computing 2016 (SoCC'16)上。
+
+\textit{关键词} 非易失性内存，硬件虚拟化，半虚拟化
+
+
+\datedsubsection{\textbf{自在医疗}}{2016年3月 -- 2016年10月}
+这个应用主要针对医患线上预约以及视频会诊，包含资金系统，即使通讯系统以及预约系统。
+
+\textit{关键词} iOS，即使通讯
+
+\datedsubsection{\textbf{iSee}}{2013年10月 -- 2014年3月}
+该应用通过地图以及增强现实来展现别人眼中的世界，通过定位和分享达到互动的目的。
+
+\textit{关键词} Android，谷歌地图，Metaio增强现实
+
 
 % Reference Test
 %\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
@@ -65,24 +60,18 @@ xxx后端开发
 %  \item main contribution
 %\end{itemize}
 
-\section{\faCogs\ IT 技能}
+\section{实习}
+\datedline{\textit{摩根史丹利}}{2014年7月-2014年9月}
+
+\section{论文发表}
+[SoCC'16] A Case for Virtualizing Persistent Memory. Liang Liang, \textbf{Rong Chen}, Haibo Chen, Yubin Xia, Haibing Guan and Binyu Zang. 2016 ACM Symposium on Cloud Computing (ACM SoCC 2016).
+
+\section{IT技能}
 % increase linespacing [parsep=0.5ex]
 \begin{itemize}[parsep=0.5ex]
-  \item 编程语言: C == Python > C++ > Java
+  \item 编程语言: C > C++ == Java > Python
   \item 平台: Linux
-  \item 开发: xxx
-\end{itemize}
-
-\section{\faHeartO\ 获奖情况}
-\datedline{\textit{第一名}, xxx 比赛}{2013 年6 月}
-\datedline{其他奖项}{2015}
-
-\section{\faInfo\ 其他}
-% increase linespacing [parsep=0.5ex]
-\begin{itemize}[parsep=0.5ex]
-  \item 技术博客: http://blog.yours.me
-  \item GitHub: https://github.com/username
-  \item 语言: 英语 - 熟练(TOEFL xxx)
+  \item 开发: Vim, Git
 \end{itemize}
 
 %% Reference
